@@ -1,6 +1,8 @@
-body {
+* {
     margin:0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 
 
@@ -78,5 +80,20 @@ ul li.checked {
 ul li.checked::before{
     background-image: url(https://image.similarpng.com/very-thumbnail/2021/12/Green-check-mark-on-transparent-background-PNG.png);
 }
-
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555555;
+    text-align: center;
+    line-height: 40px;
+}
+ul li span:hover {
+    background: #edeef0;
+    border-radius: 10px;
+    
+}
  
