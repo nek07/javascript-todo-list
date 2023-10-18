@@ -56,6 +56,6 @@ const now = new Date();
     const day = now.getDate();
     const month = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][now.getMonth()];
     const time = now.toLocaleTimeString();
-    document.getElementById("date").innerText = day+" "+month.slice(0,3)+","+dayOfWeek;
+    document.getElementById("date").innerText = day+" "+month.slice(0,3)+", "+dayOfWeek;
 }
 setDate()
