@@ -112,5 +112,11 @@ ul li span:hover {
     border-radius: 10px;
 }
 
+#navigation {
+
+    width: 30%;
+    max-width:200px;
+    height: 100%;
+}
 
  
