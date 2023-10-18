@@ -11,14 +11,17 @@
    width: 100%;
    min-height: 100vh;
    background: linear-gradient(135deg, #153677, #4e085f);
-   padding:10px
+   padding:10px;
+   flex-direction: column;
+   align-items: center;
+   
 }
 
 .todo-app {
     width:100%;
     max-width: 540px;
     background-color: white;
-    margin: 100px auto 20px;
+    margin: 0 auto 0px;
     padding: 40px 30px 70px;
     border-radius: 10px;
 }
@@ -96,4 +99,18 @@ ul li span:hover {
     border-radius: 10px;
     
 }
+#head {
+    display: flex;
+    width: 100%;
+    max-width: 540px;
+    height: 50px;
+    margin: 100px auto 7.5px;
+    padding: 30px 25px 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
  
