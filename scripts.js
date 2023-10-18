@@ -48,3 +48,14 @@ function showTask(){
 }
 
 showTask();
+
+function setDate(){
+const now = new Date();
+    const year = now.getFullYear();
+    const dayOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][now.getDay()];
+    const day = now.getDate();
+    const month = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][now.getMonth()];
+    const time = now.toLocaleTimeString();
+    document.getElementById("date").innerText = day+" "+month.slice(0,3)+","+dayOfWeek;
+}
+setDate()

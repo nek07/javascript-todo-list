@@ -6,7 +6,7 @@
 }
 
 
-.container {
+.app-container {
    display: flex;
    width: 100%;
    min-height: 100vh;
@@ -25,7 +25,7 @@
     padding: 40px 30px 70px;
     border-radius: 10px;
 }
-.row {
+.row1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,13 +40,13 @@ input{
     border: none;
     outline: none;
     background-color: transparent;
-    padding: 10px;
+    padding: 7.5px;
     font-weight: 14px;
 }
-button{
+#addTask{
     border: none;
     outline: none;
-    padding: 16px 50px;
+    padding: 12px 50px;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -99,7 +99,7 @@ ul li span:hover {
     border-radius: 10px;
     
 }
-#head {
+#header-of-todo {
     display: flex;
     width: 100%;
     max-width: 540px;
